@@ -1,0 +1,19 @@
+{
+  "patterns": [
+    "(\\bUNION\\b.*\\bSELECT\\b)",
+    "(\\bSELECT\\b.*\\bFROM\\b.*\\bWHERE\\b)",
+    "(\\bDROP\\b\\s+\\bTABLE\\b)",
+    "('.*--$)",
+    "(\\bOR\\b\\s+\\b1=1\\b)",
+    "(;.*EXEC.*xp_cmdshell)"
+  ],
+  "keywords": [
+    "select",
+    "union",
+    "insert",
+    "update",
+    "drop",
+    "--",
+    "'"
+  ]
+}

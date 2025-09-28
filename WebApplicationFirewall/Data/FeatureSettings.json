@@ -1,0 +1,5 @@
+{
+  "RateLimitEnabled": true,
+  "BlockedIpsEnabled": true,
+  "SqlInjectionDetectionEnabled": true
+}
